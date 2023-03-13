@@ -49,13 +49,13 @@ public class Bird {
         return "Tweet";
     } 
     else {
-    if(ageMonths>=3);
+    if(ageMonths>=3){
        return "chirp";
     }
 
 
         
     
-    }
+ }
 
 }
