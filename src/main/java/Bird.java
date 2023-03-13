@@ -1,6 +1,6 @@
 
 /**
- * 
+ *  
  * Problem:
  * As of right now, Java comes with 8 primitive datatypes. 
  * What if we wanted to create our own datatypes?
@@ -45,7 +45,17 @@ public class Bird {
      *         greater than or equal to 3.
      */
     public String sound(){
-        return "";
+    if(ageMonths<3){
+        return "Tweet";
+    } 
+    else {
+    if(ageMonths>=3);
+       return "chirp";
+    }
+
+
+        
+    
     }
 
 }
